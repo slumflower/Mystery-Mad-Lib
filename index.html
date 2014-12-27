@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Mad Libs</title>
+	<link rel='stylesheet' href='style.css'/>
+	<link href="http://netdna.bootstrapcdn.com/bootswatch/3.0.3/united/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+	
+</head>
+<body>
+    <div class="container">
+            <h1>Mystery Mad Libs</h1>
+            <h3>Please fill out the folowing to make your Mad Lib.</h3>
+            <hr>
+            
+            <form>
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" name="name" placeholder="Enter a name..." id="name">
+                </div>
+                <div class="form-group">
+                    <label>Adjective</label>
+                    <input type="text" name="adjective" placeholder="Enter an adjective..." id="adjective">
+                </div>
+                <div class="form-group">
+                    <label>Noun</label>
+                    <input type="text" name="noun" placeholder="Enter a noun..." id="noun">
+                </div>  
+                <div class="form-group">
+                    <label>Action verb</label>
+                    <input type="text" name="verb" placeholder="Enter an action verb..." id="verb">
+                </div>
+                <div class="form-group">    
+                    <label>Plural Noun</label>
+                    <input type="text" name="plural-noun" placeholder="Enter a plural noun..." id="plural-noun">
+                </div>
+            </form>
+            
+            <button id="button">Get Lib!</button>
+            
+            <div id="story"></div>
+    </div>
+
+<script src='script.js'></script>
+</body>
+</html>
