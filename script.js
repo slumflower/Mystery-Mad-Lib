@@ -1,37 +1,13 @@
-body {
-    background: url('http://www.greatvectors.com/preview/triangle-background.jpg') no-repeat center center fixed;
-    background-size: cover;
-  	padding-top: 80px;
-	padding-bottom: 80px;
+function madLib () {
+    var storyDiv = document.getElementById("story");
+    var name = document.getElementById("name").value;
+    var adjective = document.getElementById("adjective").value;
+    var noun = document.getElementById("noun").value;
+    var verb = document.getElementById("verb").value;
+    var plural = document.getElementById("plural-noun").value;
+    
+    storyDiv.innerHTML = name + " woke up to hear " + verb + " on the " + noun + " . It was so " + adjective + " and " + name + " was afraid that it might be an intruder. Skipping over his " + plural + " he fell to the floor. The last thing he saw was the door creeping open." ;
 }
 
-.container {
-  padding: 20px 0px;
-  max-width: 500px;
-  background: white;
-}
-
-h1, h3 {
-    text-align: center;
-}
-
-
-form {
-   padding: 10px;
-}
-
-input {
-  background: #fff;
-  border: 1px solid #c6c7cc;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
-  padding: 6px;
-  margin-top: 6px;
-  width: 100%;
-}
-
-#story {
-    padding: 30px 10px;
-}
-
-
-
+var getLib = document.getElementById('button');
+getLib.addEventListener('click', madLib);
