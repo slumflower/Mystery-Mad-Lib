@@ -1,4 +1,6 @@
 Mystery-Mad-Lib
 ===============
 
-mad lib game made originally as a Codecademy CodeBit.
+mad lib game hosted here: http://mysterymadlib.pancakeapps.com/
+
+
